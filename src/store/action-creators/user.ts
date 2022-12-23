@@ -12,7 +12,7 @@ export const fetchUsers = () => {
         } catch (error) {
             dispatch({
                 type: UserActionTypes.FETCH_USERS_ERROR,
-                payload: "Не удалось загрузить подьзователей"
+                payload: "Не удалось загрузить пользователей"
             });
         }
     };
